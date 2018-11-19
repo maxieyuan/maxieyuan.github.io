@@ -112,7 +112,8 @@
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95%E6%B4%BE%E5%8D%95.gif">
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95%E4%B8%80%E7%BA%A7%E5%AE%A1%E6%A0%B8.gif">
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95%E4%BA%8C%E7%BA%A7%E5%AE%A1%E6%A0%B8.gif">
-<meta property="og:updated_time" content="2018-11-16T09:50:30.839Z">
+<meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E4%BB%A3%E7%BB%B4%E5%B7%A5%E5%8D%95%E6%96%B0.png">
+<meta property="og:updated_time" content="2018-11-19T01:36:54.336Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="通用任务工单使用说明">
 <meta name="twitter:description" content="通用任务工单中包括了基站天馈专业、家客、集客、WLAN、直放站室分。囊括专业很多，任务类型更是数不胜数。 派单时的步骤更要仔细，如果某一步操作失误，可能会导致后期回复工单、查看工单信息时出现不可预料的问题。">
@@ -441,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  878
+                  1.1k
                 </span>
               
 
@@ -514,7 +515,16 @@
 <h3 id="回复工单"><a href="#回复工单" class="headerlink" title="回复工单"></a>回复工单</h3><p>代维人员在收到通用任务工单后，可以登录<a href="http://218.202.81.7:8088/bmdp/bmdp/apk/bmdp.apk" target="_blank" rel="noopener">掌上运维</a></p>
 <p>在<code>下载</code>中找到<code>代维管理</code>，点击<code>代维工单(新)</code>进行下载并安装。</p>
 <div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://pi6gbdf85.bkt.clouddn.com/%E7%99%BB%E5%BD%95%E6%8E%8C%E4%B8%8A%E8%BF%90%E7%BB%B4%E4%B8%8B%E8%BD%BD%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95.mp4","pic":"http://pi6gbdf85.bkt.clouddn.com/%E6%8E%8C%E4%B8%8A%E8%BF%90%E7%BB%B4.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
-<p>#### </p>
+<h4 id="手机APP执行回复工单"><a href="#手机APP执行回复工单" class="headerlink" title="手机APP执行回复工单"></a>手机APP执行回复工单</h4><p>代维人员将<code>代维工单(新)</code>安装好之后，在<code>掌上运维</code>大厅的主页，选择安装好的<img src="http://pi6gbdf85.bkt.clouddn.com/%E4%BB%A3%E7%BB%B4%E5%B7%A5%E5%8D%95%E6%96%B0.png" alt=""> ，单击打开后，可以看到有四类工单的信息：</p>
+<ol>
+<li>通用任务工单</li>
+<li>隐患/异常上报工单</li>
+<li>资源核查工单</li>
+<li>发电保障工单</li>
+</ol>
+<p>这里我们选择<code>通用任务工单</code>，点击进去后，可以看到在当前账号下的需要处理的工单，这次我们执行<strong>回复</strong>环节。</p>
+<p>执行的流程具体如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: 开始|past:&gt;http://10.221.170.152:8081/partner/</span><br><span class="line">e=&gt;end: 结束</span><br><span class="line">op=&gt;operation: 确认受理</span><br><span class="line">op1=&gt;operation: 派发</span><br><span class="line">op2=&gt;operation: 移交</span><br><span class="line">cond=&gt;condition: 是否执行回复操作？</span><br><span class="line">io1=&gt;inputoutput: 拍照，填写完成情况</span><br><span class="line">io2=&gt;inputoutput: </span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io1-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -545,7 +555,7 @@
   <p><span>本文标题:</span><a href="/2018/11/16/common-task/">通用任务工单使用说明</a></p>
   <p><span>文章作者:</span><a href="/" title="访问  的个人博客"></a></p>
   <p><span>发布时间:</span>2018年11月16日 - 15:11</p>
-  <p><span>最后更新:</span>2018年11月16日 - 17:11</p>
+  <p><span>最后更新:</span>2018年11月19日 - 09:11</p>
   <p><span>原始链接:</span><a href="/2018/11/16/common-task/" title="通用任务工单使用说明">https://maxieyuan.github.io/2018/11/16/common-task/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://maxieyuan.github.io/2018/11/16/common-task/" aria-label="复制成功！"></i></span>
   </p>
@@ -787,7 +797,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增工单"><span class="nav-number">1.</span> <span class="nav-text">新增工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#工单主题"><span class="nav-number">1.1.</span> <span class="nav-text">工单主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#其余杂项"><span class="nav-number">1.2.</span> <span class="nav-text">其余杂项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#审核工单"><span class="nav-number">2.</span> <span class="nav-text">审核工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#地市公司审核"><span class="nav-number">2.1.</span> <span class="nav-text">地市公司审核</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#地市公司审批"><span class="nav-number">2.2.</span> <span class="nav-text">地市公司审批</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回复工单"><span class="nav-number">3.</span> <span class="nav-text">回复工单</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增工单"><span class="nav-number">1.</span> <span class="nav-text">新增工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#工单主题"><span class="nav-number">1.1.</span> <span class="nav-text">工单主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#其余杂项"><span class="nav-number">1.2.</span> <span class="nav-text">其余杂项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#审核工单"><span class="nav-number">2.</span> <span class="nav-text">审核工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#地市公司审核"><span class="nav-number">2.1.</span> <span class="nav-text">地市公司审核</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#地市公司审批"><span class="nav-number">2.2.</span> <span class="nav-text">地市公司审批</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回复工单"><span class="nav-number">3.</span> <span class="nav-text">回复工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#手机APP执行回复工单"><span class="nav-number">3.1.</span> <span class="nav-text">手机APP执行回复工单</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -851,7 +861,7 @@
 <div>
 </div>
 <div class="theme-info">
-  <span class="post-count">博客全站共2.8k字</span>
+  <span class="post-count">博客全站共3.1k字</span>
 </div>
         
 <div class="busuanzi-count">
