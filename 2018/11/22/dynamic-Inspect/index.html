@@ -119,7 +119,7 @@
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/gis%E6%9F%A5%E7%9C%8B.gif">
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5%E7%BB%9F%E8%AE%A1.gif">
 <meta property="og:image" content="http://pi6gbdf85.bkt.clouddn.com/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80%E7%BB%9F%E8%AE%A1.gif">
-<meta property="og:updated_time" content="2018-11-22T09:34:41.681Z">
+<meta property="og:updated_time" content="2018-11-27T08:43:13.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="动态巡检使用说明">
 <meta name="twitter:description" content="动态巡检，根据每月巡检记录、告警信息、集团规范，动态的生成下一个月的计划。 包括的专业有：基站、传输线路、集客">
@@ -477,26 +477,32 @@
 <div class="note info"><p>动态巡检，根据每月巡检记录、告警信息、集团规范，动态的生成下一个月的计划。<br></p>
 <p>包括的专业有：基站、传输线路、集客<br></p></div>
 <a id="more"></a>
-<h3 id="动态巡检计划审批"><a href="#动态巡检计划审批" class="headerlink" title="动态巡检计划审批"></a>动态巡检计划审批</h3><p>每月根据<code>七项运维</code>系统生成的健康度得分，由<code>网路代维系统</code>进行生成计划信息。</p>
+<h3 id="动态巡检计划审批"><a class="header-anchor" href="#动态巡检计划审批">¶</a>动态巡检计划审批</h3>
+<p>每月根据<code>七项运维</code>系统生成的健康度得分，由<code>网路代维系统</code>进行生成计划信息。</p>
 <p>各个地市分公司对需要巡检的计划进行查看、审批下发，由一线代维人员对下发的计划中的任务进行巡检，保障各个设备的正常运行。</p>
 <span class="label danger">由于三类专业的审批流程都大体一致，所以这里只以线路的作为演示</span>
-<h4 id="关联巡检资源"><a href="#关联巡检资源" class="headerlink" title="关联巡检资源"></a>关联巡检资源</h4><p>关联时可以选择在页面点击<code>操作</code>一栏的<strong>是/否</strong>来决定该资源的巡检，还可以点击<code>导出</code>按钮，对Excel表格进行操作，来批量修改。修改后点击<code>从Excel导入修改</code>即可。</p>
+<h4 id="关联巡检资源"><a class="header-anchor" href="#关联巡检资源">¶</a>关联巡检资源</h4>
+<p>关联时可以选择在页面点击<code>操作</code>一栏的<strong>是/否</strong>来决定该资源的巡检，还可以点击<code>导出</code>按钮，对Excel表格进行操作，来批量修改。修改后点击<code>从Excel导入修改</code>即可。</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8A%A8%E6%80%81%E5%B7%A1%E6%A3%80%E5%85%B3%E8%81%94%E5%B7%A1%E6%A3%80%E8%B5%84%E6%BA%90.gif" alt=""></p>
-<h4 id="计划确认"><a href="#计划确认" class="headerlink" title="计划确认"></a>计划确认</h4><p>点击计划详情页面的<code>计划确认</code>按钮，即可下发计划。</p>
-<p><strong>注意：</strong>计划下发后，不允许回退至审批环节。确认时要注意！</p>
+<h4 id="计划确认"><a class="header-anchor" href="#计划确认">¶</a>计划确认</h4>
+<p>点击计划详情页面的<code>计划确认</code>按钮，即可下发计划。</p>
+<p>**注意：**计划下发后，不允许回退至审批环节。确认时要注意！</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8A%A8%E6%80%81%E5%B7%A1%E6%A3%80%E8%AE%A1%E5%88%92%E7%A1%AE%E8%AE%A4.png" alt=""></p>
 <hr>
-
-<h3 id="线路巡检管理"><a href="#线路巡检管理" class="headerlink" title="线路巡检管理"></a>线路巡检管理</h3><p>基站与集客的动态巡检信息，均在<code>工单管理</code>中<code>巡检工单</code>功能中进行查看，之前也讲解过如何使用<code>巡检工单</code>。</p>
+<h3 id="线路巡检管理"><a class="header-anchor" href="#线路巡检管理">¶</a>线路巡检管理</h3>
+<p>基站与集客的动态巡检信息，均在<code>工单管理</code>中<code>巡检工单</code>功能中进行查看，之前也讲解过如何使用<code>巡检工单</code>。</p>
 <p>这里这次只针对传输线路的<code>线路巡检管理</code>功能进行介绍</p>
-<h4 id="线路资源维护组划分"><a href="#线路资源维护组划分" class="headerlink" title="线路资源维护组划分"></a>线路资源维护组划分</h4><h5 id="资源数据来源"><a href="#资源数据来源" class="headerlink" title="资源数据来源"></a>资源数据来源</h5><ul>
+<h4 id="线路资源维护组划分"><a class="header-anchor" href="#线路资源维护组划分">¶</a>线路资源维护组划分</h4>
+<h5 id="资源数据来源"><a class="header-anchor" href="#资源数据来源">¶</a>资源数据来源</h5>
+<ul>
 <li>数据来源：管线系统</li>
 <li>维护厂家：国讯</li>
-<li>同步周期：1.线路段：天粒度；2.敷设点：按需同步 </li>
+<li>同步周期：1.线路段：天粒度；2.敷设点：按需同步</li>
 <li>不同步以下几类资源：集客A级光缆、集客AA级光缆、集客AAA级光缆、集客家客普通用户光缆、引入光缆、用户光缆</li>
 </ul>
 <div class="note danger"><p>注意：如需要同步敷设点等大量数据时，请派EOMS工单，并保证每月月底之前需要同步的数据已录入至管线系统。</p></div>
-<h5 id="干线划分维护组"><a href="#干线划分维护组" class="headerlink" title="干线划分维护组"></a>干线划分维护组</h5><p>由于干线有特殊的需求，存在线路段分别位于两个区县之间，需要由两个区县的代维小组进行巡检。</p>
+<h5 id="干线划分维护组"><a class="header-anchor" href="#干线划分维护组">¶</a>干线划分维护组</h5>
+<p>由于干线有特殊的需求，存在线路段分别位于两个区县之间，需要由两个区县的代维小组进行巡检。</p>
 <p>所以干线资源可以划分两个及两个以下的班组，方便巡检。</p>
 <ul>
 <li>对于单条或者少数几条线路段划分班组时，可以勾选资源名称前的复选框，勾选之后，点击关联所选项，选择要关联的班组即可。</li>
@@ -504,33 +510,45 @@
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%B9%B2%E7%BA%BF%E5%88%92%E5%88%86%E7%8F%AD%E7%BB%84%E5%8D%95%E6%9D%A1.gif" alt=""></p>
 <ul>
 <li>对于多条或者较多条数线路段划分班组时，可以先根据特定的条件查询出资源，再点击页面下方的<code>导出所有项</code>或者<code>导出所选项</code>，将资源导出至Excel表格中。对表格中的资源进行批量的修改设置其班组信息，修改完成后，在页面最下方的<code>从Excel导入</code>功能，将表格再导入至系统即可。</li>
+<li>使用Excel导入功能时，如果要关联多个班组，则需要在<code>代维公司</code>一列填写班组时，使用<code>,</code>号进行分割班组即可</li>
 </ul>
-<h5 id="本地网划分维护组"><a href="#本地网划分维护组" class="headerlink" title="本地网划分维护组"></a>本地网划分维护组</h5><p>本地网划分维护组时，只能一个资源对应一个班组，具体操作与<code>干线划分维护组</code>一致，不在赘述</p>
-<h4 id="计划制定"><a href="#计划制定" class="headerlink" title="计划制定"></a>计划制定</h4><p>计划制定是之前<code>动态巡检计划</code>还未正式上线时，由各个地市代维公司进行人工手动选择资源，进行下发计划的一个功能。</p>
+<h5 id="本地网划分维护组"><a class="header-anchor" href="#本地网划分维护组">¶</a>本地网划分维护组</h5>
+<p>本地网划分维护组时，只能一个资源对应一个班组，具体操作与<code>干线划分维护组</code>一致，不在赘述</p>
+<h4 id="计划制定"><a class="header-anchor" href="#计划制定">¶</a>计划制定</h4>
+<p>计划制定是之前<code>动态巡检计划</code>还未正式上线时，由各个地市代维公司进行人工手动选择资源，进行下发计划的一个功能。</p>
 <p>由于现在已经上线了动态巡检，很多人已经不再使用该功能。</p>
 <p>这里再一次的介绍该功能，是为了以后可能区公司会下发新的要求，需要使用该功能进行执行。</p>
-<h5 id="新建巡检计划"><a href="#新建巡检计划" class="headerlink" title="新建巡检计划"></a>新建巡检计划</h5><ol>
-<li><p>填写计划名称：尽量按照规范填写，例如：中移铁通呼和浩特分公司-赛罕区-11月手动派发巡检计划<br></p>
+<h5 id="新建巡检计划"><a class="header-anchor" href="#新建巡检计划">¶</a>新建巡检计划</h5>
+<ol>
+<li>
+<p>填写计划名称：尽量按照规范填写，例如：中移铁通呼和浩特分公司-赛罕区-11月手动派发巡检计划<br></p>
 <p>尽量要与动态巡检计划能够区分开，并且容易识别。</p>
 </li>
-<li><p>代维专业：根据实际情况进行选择，一般只分为：干线、本地网</p>
+<li>
+<p>代维专业：根据实际情况进行选择，一般只分为：干线、本地网</p>
 </li>
-<li><p>所属地市：根据实际计划下发的地市进行选择</p>
+<li>
+<p>所属地市：根据实际计划下发的地市进行选择</p>
 </li>
-<li><p>所属区县：根据实际计划下发的区县进行选择</p>
+<li>
+<p>所属区县：根据实际计划下发的区县进行选择</p>
 </li>
-<li><p>巡检年：创建计划的当前年</p>
+<li>
+<p>巡检年：创建计划的当前年</p>
 </li>
-<li><p>巡检月：创建计划的当前月，或者下一个月</p>
+<li>
+<p>巡检月：创建计划的当前月，或者下一个月</p>
 </li>
-<li><p>计划描述：非必填项</p>
+<li>
+<p>计划描述：非必填项</p>
 </li>
 </ol>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E8%AE%A1%E5%88%92%E5%88%B6%E5%AE%9A%E6%96%B0%E5%BB%BA%E5%B7%A1%E6%A3%80%E8%AE%A1%E5%88%92.gif" alt=""></p>
 <p>创建完计划后，可以选择哪些资源作为巡检项，选择完之后，直接提交审核。</p>
 <p><strong>审核人一般为地市移动管理员</strong></p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E8%AE%A1%E5%88%92%E5%88%B6%E5%AE%9A%E6%96%B0%E5%BB%BA%E5%B7%A1%E6%A3%80%E8%AE%A1%E5%88%92-1.gif" alt=""></p>
-<h5 id="我创建的计划"><a href="#我创建的计划" class="headerlink" title="我创建的计划"></a>我创建的计划</h5><p>在新建巡检计划之后，可以在<code>我创建的计划</code>中看到我们新建的计划信息，以及当前计划的状态。</p>
+<h5 id="我创建的计划"><a class="header-anchor" href="#我创建的计划">¶</a>我创建的计划</h5>
+<p>在新建巡检计划之后，可以在<code>我创建的计划</code>中看到我们新建的计划信息，以及当前计划的状态。</p>
 <p>计划状态一般分为：</p>
 <ol>
 <li>待审核</li>
@@ -538,13 +556,16 @@
 </ol>
 <p>当我们查看计划的状态变更为<code>已通过</code>的时候，就可以在手机和PC端看到该计划以及计划下的巡检任务</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86-%E6%88%91%E5%88%9B%E5%BB%BA%E7%9A%84%E8%AE%A1%E5%88%92.png" alt=""></p>
-<h5 id="待审批列表"><a href="#待审批列表" class="headerlink" title="待审批列表"></a>待审批列表</h5><p>这时我们切换账号，使用地市移动管理员的账号，在他的账号下，我们可以在<code>待审批的计划</code>中看到之前提交审批的计划</p>
+<h5 id="待审批列表"><a class="header-anchor" href="#待审批列表">¶</a>待审批列表</h5>
+<p>这时我们切换账号，使用地市移动管理员的账号，在他的账号下，我们可以在<code>待审批的计划</code>中看到之前提交审批的计划</p>
 <p>点击计划信息后的<code>审批</code>按钮，开始对计划进行审批操作：通过 or 驳回</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E8%AE%A1%E5%88%92%E5%88%B6%E5%AE%9A%E5%BE%85%E5%AE%A1%E6%89%B9%E8%AE%A1%E5%88%92.gif" alt=""></p>
 <p>审批通过后，可以在<code>线路巡检统计</code>的<strong>线路巡检完成情况统计</strong>中查找到该计划</p>
-<h4 id="巡检线路信息查询"><a href="#巡检线路信息查询" class="headerlink" title="巡检线路信息查询"></a>巡检线路信息查询</h4><p>主要功能用于对线路段的<code>敷设点</code>、<code>GIS查看资源</code>进行查看，对<code>难度系数</code>进行调整</p>
+<h4 id="巡检线路信息查询"><a class="header-anchor" href="#巡检线路信息查询">¶</a>巡检线路信息查询</h4>
+<p>主要功能用于对线路段的<code>敷设点</code>、<code>GIS查看资源</code>进行查看，对<code>难度系数</code>进行调整</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%B7%A1%E6%A3%80%E7%BA%BF%E8%B7%AF%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2.gif" alt=""></p>
-<h4 id="GIS查看"><a href="#GIS查看" class="headerlink" title="GIS查看"></a>GIS查看</h4><p>查看某一个代维人员特定时间范围内的巡检记录。一般作为判断该巡检人员是否正常巡检的依据。</p>
+<h4 id="gis查看"><a class="header-anchor" href="#gis查看">¶</a>GIS查看</h4>
+<p>查看某一个代维人员特定时间范围内的巡检记录。一般作为判断该巡检人员是否正常巡检的依据。</p>
 <ol>
 <li>小组名称：非必填</li>
 <li>巡检人：填写巡检人的中文姓名</li>
@@ -552,8 +573,10 @@
 <li>巡检日期：选择开始和结束时间，尽量保证在3-4天之内，避免数据过多，查询过慢</li>
 </ol>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/gis%E6%9F%A5%E7%9C%8B.gif" alt=""></p>
-<h4 id="线路巡检统计"><a href="#线路巡检统计" class="headerlink" title="线路巡检统计"></a>线路巡检统计</h4><p>分两个功能，一个是完成情况统计，统计各个计划完成情况；另一个为全区统计，按月统计，统计十二个地市的完成率、覆盖率</p>
-<h5 id="线路巡检完成情况统计"><a href="#线路巡检完成情况统计" class="headerlink" title="线路巡检完成情况统计"></a>线路巡检完成情况统计</h5><ol>
+<h4 id="线路巡检统计"><a class="header-anchor" href="#线路巡检统计">¶</a>线路巡检统计</h4>
+<p>分两个功能，一个是完成情况统计，统计各个计划完成情况；另一个为全区统计，按月统计，统计十二个地市的完成率、覆盖率</p>
+<h5 id="线路巡检完成情况统计"><a class="header-anchor" href="#线路巡检完成情况统计">¶</a>线路巡检完成情况统计</h5>
+<ol>
 <li>计划名称：填写计划的大概名称即可，系统会自动模糊匹配</li>
 <li>巡检维护组：选择某一个区县的维护组，即可查询到属于该维护组下的计划信息</li>
 <li>年份：默认为当前年</li>
@@ -561,7 +584,8 @@
 </ol>
 <p>当选择和填写了以上信息，即可点击<code>统计</code>按钮，查询出符合条件的计划信息了</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5%E7%BB%9F%E8%AE%A1.gif" alt=""></p>
-<h5 id="线路巡检统计-1"><a href="#线路巡检统计-1" class="headerlink" title="线路巡检统计"></a>线路巡检统计</h5><ol>
+<h5 id="线路巡检统计-v2"><a class="header-anchor" href="#线路巡检统计-v2">¶</a>线路巡检统计</h5>
+<ol>
 <li>选择年份：默认为当前年</li>
 <li>选择月份：默认为当前月</li>
 <li>专业类型：默认为所有专业，可以根据需求进行选择</li>
@@ -570,17 +594,13 @@
 <p><code>巡检率</code>则是集团定义的<code>完成率</code>，要达到100%</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80%E7%BB%9F%E8%AE%A1.gif" alt=""></p>
 <hr>
-
-<p><br></p>
-<div class="note info"><p>以上就是动态巡检的使用说明<br>如果您对这篇文章有任何问题请及时联系我，我的Email：<a href="mailto:machiyuan@boco.com.cn" target="_blank" rel="noopener">machiyuan@boco.com.cn</a> </p></div>
-<p><br></p>
-<p><br></p>
+<br>
+<div class="note info"><p>以上就是动态巡检的使用说明<br>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div>
+<br>
+<br>
 <center> <a class="btn" href="http://10.221.170.152:8080/partner/" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击这里返回内蒙古网络代维平台</a></center>
-
-
-
-<p><br></p>
-<p><br></p>
+<br>
+<br>
 
       
     </div>
@@ -611,7 +631,7 @@
   <p><span>本文标题:</span><a href="/2018/11/22/dynamic-Inspect/">动态巡检使用说明</a></p>
   <p><span>文章作者:</span><a href="/" title="访问  的个人博客"></a></p>
   <p><span>发布时间:</span>2018年11月22日 - 10:11</p>
-  <p><span>最后更新:</span>2018年11月22日 - 17:11</p>
+  <p><span>最后更新:</span>2018年11月27日 - 16:11</p>
   <p><span>原始链接:</span><a href="/2018/11/22/dynamic-Inspect/" title="动态巡检使用说明">https://maxieyuan.github.io/2018/11/22/dynamic-Inspect/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://maxieyuan.github.io/2018/11/22/dynamic-Inspect/" aria-label="复制成功！"></i></span>
   </p>
@@ -713,6 +733,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/11/26/eval/" rel="prev" title="考核费用管理使用说明">
+                考核费用管理使用说明 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -793,7 +817,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -804,7 +828,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -815,7 +839,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -855,7 +879,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#动态巡检计划审批"><span class="nav-number">1.</span> <span class="nav-text">动态巡检计划审批</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#关联巡检资源"><span class="nav-number">1.1.</span> <span class="nav-text">关联巡检资源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计划确认"><span class="nav-number">1.2.</span> <span class="nav-text">计划确认</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线路巡检管理"><span class="nav-number">2.</span> <span class="nav-text">线路巡检管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#线路资源维护组划分"><span class="nav-number">2.1.</span> <span class="nav-text">线路资源维护组划分</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#资源数据来源"><span class="nav-number">2.1.1.</span> <span class="nav-text">资源数据来源</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#干线划分维护组"><span class="nav-number">2.1.2.</span> <span class="nav-text">干线划分维护组</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#本地网划分维护组"><span class="nav-number">2.1.3.</span> <span class="nav-text">本地网划分维护组</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计划制定"><span class="nav-number">2.2.</span> <span class="nav-text">计划制定</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#新建巡检计划"><span class="nav-number">2.2.1.</span> <span class="nav-text">新建巡检计划</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#我创建的计划"><span class="nav-number">2.2.2.</span> <span class="nav-text">我创建的计划</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#待审批列表"><span class="nav-number">2.2.3.</span> <span class="nav-text">待审批列表</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#巡检线路信息查询"><span class="nav-number">2.3.</span> <span class="nav-text">巡检线路信息查询</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GIS查看"><span class="nav-number">2.4.</span> <span class="nav-text">GIS查看</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#线路巡检统计"><span class="nav-number">2.5.</span> <span class="nav-text">线路巡检统计</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#线路巡检完成情况统计"><span class="nav-number">2.5.1.</span> <span class="nav-text">线路巡检完成情况统计</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#线路巡检统计-1"><span class="nav-number">2.5.2.</span> <span class="nav-text">线路巡检统计</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#动态巡检计划审批"><span class="nav-number">1.</span> <span class="nav-text">¶动态巡检计划审批</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#关联巡检资源"><span class="nav-number">1.1.</span> <span class="nav-text">¶关联巡检资源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计划确认"><span class="nav-number">1.2.</span> <span class="nav-text">¶计划确认</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线路巡检管理"><span class="nav-number">2.</span> <span class="nav-text">¶线路巡检管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#线路资源维护组划分"><span class="nav-number">2.1.</span> <span class="nav-text">¶线路资源维护组划分</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#资源数据来源"><span class="nav-number">2.1.1.</span> <span class="nav-text">¶资源数据来源</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#干线划分维护组"><span class="nav-number">2.1.2.</span> <span class="nav-text">¶干线划分维护组</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#本地网划分维护组"><span class="nav-number">2.1.3.</span> <span class="nav-text">¶本地网划分维护组</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计划制定"><span class="nav-number">2.2.</span> <span class="nav-text">¶计划制定</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#新建巡检计划"><span class="nav-number">2.2.1.</span> <span class="nav-text">¶新建巡检计划</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#我创建的计划"><span class="nav-number">2.2.2.</span> <span class="nav-text">¶我创建的计划</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#待审批列表"><span class="nav-number">2.2.3.</span> <span class="nav-text">¶待审批列表</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#巡检线路信息查询"><span class="nav-number">2.3.</span> <span class="nav-text">¶巡检线路信息查询</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#gis查看"><span class="nav-number">2.4.</span> <span class="nav-text">¶GIS查看</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#线路巡检统计"><span class="nav-number">2.5.</span> <span class="nav-text">¶线路巡检统计</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#线路巡检完成情况统计"><span class="nav-number">2.5.1.</span> <span class="nav-text">¶线路巡检完成情况统计</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#线路巡检统计-v2"><span class="nav-number">2.5.2.</span> <span class="nav-text">¶线路巡检统计</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -919,7 +943,7 @@
 <div>
 </div>
 <div class="theme-info">
-  <span class="post-count">博客全站共8k字</span>
+  <span class="post-count">博客全站共8.2k字</span>
 </div>
         
 <div class="busuanzi-count">
