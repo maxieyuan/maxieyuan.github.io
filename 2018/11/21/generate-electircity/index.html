@@ -86,7 +86,7 @@
 
 
 
-  <meta name="keywords" content="工单管理,代维,发电工单,">
+  <meta name="keywords" content="代维,工单管理,发电工单,">
 
 
 
@@ -100,7 +100,7 @@
 
 
 <meta name="description" content="发电工单，顾名思义就是要给设备执行发电操作的一类工单，主要是针对于基站设备。在发生意外停电、电路检修等情况的时候，需要人工对基站进行发电操作，使基站保持正常运行。 由此可见发电工单的重要性，保证及时的发电，是对业务的保证，也是对用户的负责。 学会使用发电工单的各环节操作步骤，是使业务正常运行的前提。">
-<meta name="keywords" content="工单管理,代维,发电工单">
+<meta name="keywords" content="代维,工单管理,发电工单">
 <meta property="og:type" content="article">
 <meta property="og:title" content="发电工单使用说明">
 <meta property="og:url" content="https://maxieyuan.github.io/2018/11/21/generate-electircity/index.html">
@@ -472,25 +472,27 @@
 <p>由此可见发电工单的重要性，保证及时的发电，是对业务的保证，也是对用户的负责。<br></p>
 <p>学会使用发电工单的各环节操作步骤，是使业务正常运行的前提。</p></div>
 <a id="more"></a>
-<h3 id="新增工单"><a href="#新增工单" class="headerlink" title="新增工单"></a>新增工单</h3><p>一般由系统根据后台数据自动进行派发发电工单，少数情况由人工手动派发。</p>
+<h3 id="新增工单"><a class="header-anchor" href="#新增工单">¶</a>新增工单</h3>
+<p>一般由系统根据后台数据自动进行派发发电工单，少数情况由人工手动派发。</p>
 <p>人工派发时要注意以下几项：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.处理时限：处理该工单的最后时间，如超过该时间，则工单会超时</span><br><span class="line">2.地市：只有选对地市，才能够获取到正确的基站信息</span><br><span class="line">3.区域特征：基站所处的地理环境，是市区、平原丘陵、还是山区海岛</span><br><span class="line">4.停电发生时间：要与实际停电时间保持一致，后续可能会作为评判工单是否合格的标准</span><br><span class="line">5.工单主题：一般要写明哪个地市，哪个区县，哪一个基站发生了什么故障导致需要执行发电操作</span><br></pre></td></tr></table></figure>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E6%96%B0%E5%A2%9E%E5%B7%A5%E5%8D%95.gif" alt=""></p>
 <hr>
-
-<h3 id="审核工单"><a href="#审核工单" class="headerlink" title="审核工单"></a>审核工单</h3><p>对人工派发的工单进行审核，需要发送短信验证码。</p>
+<h3 id="审核工单"><a class="header-anchor" href="#审核工单">¶</a>审核工单</h3>
+<p>对人工派发的工单进行审核，需要发送短信验证码。</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E5%AE%A1%E6%A0%B8.gif" alt=""></p>
 <hr>
-
-
-
-<h3 id="手机回复工单"><a href="#手机回复工单" class="headerlink" title="手机回复工单"></a>手机回复工单</h3><h4 id="下载APP"><a href="#下载APP" class="headerlink" title="下载APP"></a>下载APP</h4><p>代维人员在收到通用任务工单后，可以登录<a href="http://218.202.81.7:8088/bmdp/bmdp/apk/bmdp.apk" target="_blank" rel="noopener">掌上运维</a></p>
+<h3 id="手机回复工单"><a class="header-anchor" href="#手机回复工单">¶</a>手机回复工单</h3>
+<h4 id="下载app"><a class="header-anchor" href="#下载app">¶</a>下载APP</h4>
+<p>代维人员在收到通用任务工单后，可以登录<a href="http://218.202.81.7:8088/bmdp/bmdp/apk/bmdp.apk" target="_blank" rel="noopener">掌上运维</a></p>
 <p>在<code>下载</code>中找到<code>代维管理</code>，点击<code>代维工单(新)</code>进行下载并安装。</p>
 <div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","loop":true,"video":{"url":"http://pi6gbdf85.bkt.clouddn.com/%E4%B8%8B%E8%BD%BD%E6%96%B0%E7%89%88%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95.mp4","pic":"http://pi6gbdf85.bkt.clouddn.com/%E6%8E%8C%E4%B8%8A%E8%BF%90%E7%BB%B4.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
-<h4 id="签到、签退"><a href="#签到、签退" class="headerlink" title="签到、签退"></a>签到、签退</h4><p>如果定位与基站资源的经纬度偏差在100米之内，则可以自动匹配配置，直接签到/签退即可。</p>
+<h4 id="签到-签退"><a class="header-anchor" href="#签到-签退">¶</a>签到、签退</h4>
+<p>如果定位与基站资源的经纬度偏差在100米之内，则可以自动匹配配置，直接签到/签退即可。</p>
 <p>如果定位与基站资源的经纬度偏差在100米之外，则需要进行拍照获取经纬度，进行签到签退。</p>
 <div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"theme":"#FADFA3","loop":true,"video":{"url":"http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E7%AD%BE%E5%88%B0%E7%AD%BE%E9%80%80.mp4","pic":"http://pi6gbdf85.bkt.clouddn.com/%E6%8E%8C%E4%B8%8A%E8%BF%90%E7%BB%B4.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
-<h4 id="执行发电"><a href="#执行发电" class="headerlink" title="执行发电"></a>执行发电</h4><ul>
+<h4 id="执行发电"><a class="header-anchor" href="#执行发电">¶</a>执行发电</h4>
+<ul>
 <li>选择开始发电时间、发电结束时间、市电恢复时间</li>
 <li>填写工作电流、零星耗材记录、处理情况说明</li>
 <li>选择油机编号：油机编号要在之前<a href="https://maxieyuan.github.io/2018/11/15/oilwear-1/">发电油耗</a>说明中的资源管理里录入才可以选择</li>
@@ -499,13 +501,13 @@
 </ul>
 <div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"theme":"#b7daff","loop":true,"video":{"url":"http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E6%89%A7%E8%A1%8C%E5%8F%91%E7%94%B5.mp4","pic":"http://pi6gbdf85.bkt.clouddn.com/%E6%8E%8C%E4%B8%8A%E8%BF%90%E7%BB%B4.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
 <hr>
-
-<h3 id="质检环节"><a href="#质检环节" class="headerlink" title="质检环节"></a>质检环节</h3><p>对执行发电环节后的工单，进行审核，判断其是否符合发电要求。</p>
+<h3 id="质检环节"><a class="header-anchor" href="#质检环节">¶</a>质检环节</h3>
+<p>对执行发电环节后的工单，进行审核，判断其是否符合发电要求。</p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E8%B4%A8%E6%A3%80.gif" alt=""></p>
 <p>对于质检不合格的，退回到执行发电环节，进行重新填写信息</p>
 <hr>
-
-<h3 id="自动发电稽核"><a href="#自动发电稽核" class="headerlink" title="自动发电稽核"></a>自动发电稽核</h3><ul>
+<h3 id="自动发电稽核"><a class="header-anchor" href="#自动发电稽核">¶</a>自动发电稽核</h3>
+<ul>
 <li>根据关联<code>告警清除时间</code>、<code>告警发生时间</code>，对比发电工单中的<code>发电结束时间</code>、<code>发电开始时间</code>。</li>
 </ul>
 <p>根据以下条件判断为有效发电：</p>
@@ -518,23 +520,19 @@
 <p>自动稽核<strong>成功</strong>的工单，将自动归档，无需人工处理。</p>
 <p>自动稽核<strong>失败</strong>的工单，将流转到<code>发电审核</code></p>
 <hr>
-
-<h3 id="发电审核"><a href="#发电审核" class="headerlink" title="发电审核"></a>发电审核</h3><p>对于未能<code>自动稽核</code>通过的发电工单，需要人工进行审核。</p>
+<h3 id="发电审核"><a class="header-anchor" href="#发电审核">¶</a>发电审核</h3>
+<p>对于未能<code>自动稽核</code>通过的发电工单，需要人工进行审核。</p>
 <p>对于<strong>无效发电</strong>的工单，在<code>有效发电</code>选项中，选择<strong>虚报</strong>即可；<code>是否计费</code>选项中，选择<strong>否</strong></p>
 <p>对于<strong>有效发电</strong>的工单，在<code>有效发电</code>选项中，选择<strong>有效</strong>即可；<code>是否计费</code>选项中，选择<strong>是</strong></p>
 <p><img src="http://pi6gbdf85.bkt.clouddn.com/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95%E5%AE%A1%E6%A0%B8%E7%8E%AF%E8%8A%82.gif" alt=""></p>
 <hr>
-
-<p><br></p>
-<div class="note info"><p>以上就是发电工单的使用说明<br>如果您对这篇文章有任何问题请及时联系我，我的Email：<a href="mailto:machiyuan@boco.com.cn" target="_blank" rel="noopener">machiyuan@boco.com.cn</a> </p></div>
-<p><br></p>
-<p><br></p>
+<br>
+<div class="note info"><p>以上就是发电工单的使用说明<br>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div>
+<br>
+<br>
 <center> <a class="btn" href="http://10.221.170.152:8080/partner/" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击这里返回内蒙古网络代维平台</a></center>
-
-
-
-<p><br></p>
-<p><br></p>
+<br>
+<br>
 
       
     </div>
@@ -623,9 +621,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/工单管理/" rel="tag"><i class="fa fa-tag"></i> 工单管理</a>
-          
             <a href="/tags/代维/" rel="tag"><i class="fa fa-tag"></i> 代维</a>
+          
+            <a href="/tags/工单管理/" rel="tag"><i class="fa fa-tag"></i> 工单管理</a>
           
             <a href="/tags/发电工单/" rel="tag"><i class="fa fa-tag"></i> 发电工单</a>
           
@@ -760,7 +758,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -771,7 +769,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -811,7 +809,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增工单"><span class="nav-number">1.</span> <span class="nav-text">新增工单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#审核工单"><span class="nav-number">2.</span> <span class="nav-text">审核工单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手机回复工单"><span class="nav-number">3.</span> <span class="nav-text">手机回复工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#下载APP"><span class="nav-number">3.1.</span> <span class="nav-text">下载APP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#签到、签退"><span class="nav-number">3.2.</span> <span class="nav-text">签到、签退</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#执行发电"><span class="nav-number">3.3.</span> <span class="nav-text">执行发电</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#质检环节"><span class="nav-number">4.</span> <span class="nav-text">质检环节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动发电稽核"><span class="nav-number">5.</span> <span class="nav-text">自动发电稽核</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#发电审核"><span class="nav-number">6.</span> <span class="nav-text">发电审核</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增工单"><span class="nav-number">1.</span> <span class="nav-text">¶新增工单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#审核工单"><span class="nav-number">2.</span> <span class="nav-text">¶审核工单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手机回复工单"><span class="nav-number">3.</span> <span class="nav-text">¶手机回复工单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#下载app"><span class="nav-number">3.1.</span> <span class="nav-text">¶下载APP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#签到-签退"><span class="nav-number">3.2.</span> <span class="nav-text">¶签到、签退</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#执行发电"><span class="nav-number">3.3.</span> <span class="nav-text">¶执行发电</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#质检环节"><span class="nav-number">4.</span> <span class="nav-text">¶质检环节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动发电稽核"><span class="nav-number">5.</span> <span class="nav-text">¶自动发电稽核</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#发电审核"><span class="nav-number">6.</span> <span class="nav-text">¶发电审核</span></a></li></ol></div>
             
 
           </div>
@@ -875,7 +873,7 @@
 <div>
 </div>
 <div class="theme-info">
-  <span class="post-count">博客全站共8.2k字</span>
+  <span class="post-count">博客全站共9.2k字</span>
 </div>
         
 <div class="busuanzi-count">

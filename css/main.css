@@ -2182,7 +2182,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff3721;
+  background: #f1a7d0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3509,4 +3509,13 @@ img:hover {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+img.emoji {
+  height: 1.1em;
+  width: 1.1em;
+  margin: 0 0.05em 0 0.1em !important;
+  vertical-align: -0.1em;
+  padding: 0px !important;
+  border: none !important;
+  display: inline !important;
 }
