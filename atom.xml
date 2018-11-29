@@ -6,10 +6,36 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://maxieyuan.github.io/"/>
-  <updated>2018-11-28T09:51:25.106Z</updated>
+  <updated>2018-11-29T02:19:04.631Z</updated>
   <id>https://maxieyuan.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>派发EOMS工单操作说明</title>
+    <link href="https://maxieyuan.github.io/2018/11/29/eoms-work-order/"/>
+    <id>https://maxieyuan.github.io/2018/11/29/eoms-work-order/</id>
+    <published>2018-11-29T00:38:44.000Z</published>
+    <updated>2018-11-29T02:19:04.631Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="http://pi6gbdf85.bkt.clouddn.com/EOMS%E5%B7%A5%E5%8D%95-2.png" alt=""></p><div class="note info"><p>在代维人员日常使用网络代维系统时，如果遇到操作失误、修改信息、提取数据的需求时，就需要在<strong>EOMS</strong>系统上派发工单到代维系统维护人员的账号下，由维护人员进行处理。<br></p><p>对于问题的重要程度，可以根据派发工单时的<strong>紧急程度</strong>进行选择。</p></div><a id="more"></a><p><font color="#FF2400" size="5">请各位代维人员以及需要派发工单解决问题的人员注意以下几点！</font></p><ol><li>处理问题前，如已知该问题需要派工单，请先派EOMS工单，在工单中对需要处理的问题进行描述，必要时可以派单后，电话与代维系统维护人员进行沟通。</li><li>处理问题前，如不清楚该类问题是否需要派单，请电话联系代维系统维护人员，确认是否要派发工单。如需要派发工单，则先派发工单，待工单流转到代维系统维护人员账号下之后进行处理问题。</li><li>对于紧急的问题，需要维护人员加急处理的，<strong>请先派发EOMS工单，并将EOMS工单号复制给代维系统维护人员进行确认</strong>，确认无误后，进行处理问题。</li><li>派发工单时，请阅读下面编写的<strong>派发EOMS工单手册</strong>。如未按照手册进行派发EOMS工单，则会被审核人驳回；如未阅读以下手册，并且致电代维系统维护人员，询问如何派发EOMS工单，代维系统维护人员有权不予解答。</li><li>对于未派发工单，隐瞒自身操作失误，且认为是系统原因造成问题的代维人员，经过维护人员对该类人员提出问题检查后发现为人为操作失误导致，网络代维系统有权对该类人员进行信用评级，降级该类人员的处理及时性。</li><li>派发EOMS工单只有各个地市的移动人员才有权限，代维人员无权限进行派发EOMS工单，这一点请务必知悉！</li></ol><p>更新时间：2018年11月29日09:33:47</p><h3 id="派发eoms工单"><a class="header-anchor" href="#派发eoms工单">¶</a>派发EOMS工单</h3><p><code>内蒙古网络代维系统</code>属于网管系统维护流程中的系统，所以需要在EOMS流程管理中的<code>网管系统维护流程</code>进行派发工单</p><p>新增工单时需要注意的事项：</p><ol><li>工单主题：描述哪个地市，遇到什么问题。主题内容中请避免删除、修改数据等字样</li><li>专业：网管</li><li>系统：代维管理系统</li><li>维护分类：服务类</li><li>问题发现世界：根据实际时间，进行选择即可</li><li>合同名称：亿阳服务合同</li><li>合同服务内容：根据实际填写，一般处理问题为<code>配合日常工作</code>即可</li><li>问题描述：将需要处理的问题进行描述</li><li>附件：如果问题描述不能说明问题的情况，请上传附件</li><li>选择派发对象：代维管理分析组-网管支撑室</li><li>紧急程度：<ul><li>紧急：流转到代维系统维护人员账号下需要<strong>两个工作日</strong>，处理完成在<strong>工作日的12个小时之内</strong>。</li><li>重要：流转到代维系统维护人员账号下需要<strong>四个工作日</strong>，处理完成在<strong>三个工作日之内</strong>。</li><li>一般：流转到代维系统维护人员账号下需要<strong>十五个工作日</strong>，处理完成在<strong>十二个工作日之内</strong>。</li></ul></li></ol><p><img src="http://pi6gbdf85.bkt.clouddn.com/EOMS%E6%B4%BE%E5%8F%91%E5%B7%A5%E5%8D%95.gif" alt=""></p><hr><br><div class="note info"><p>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div><br><br><center> <a class="btn" href="http://10.221.170.152:8080/partner/" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击这里返回内蒙古网络代维平台</a></center><br><br>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://pi6gbdf85.bkt.clouddn.com/EOMS%E5%B7%A5%E5%8D%95-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;在代维人员日常使用网络代维系统时，如果遇到操作失误、修改信息、提取数据的需求时，就需要在&lt;strong&gt;EOMS&lt;/strong&gt;系统上派发工单到代维系统维护人员的账号下，由维护人员进行处理。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;对于问题的重要程度，可以根据派发工单时的&lt;strong&gt;紧急程度&lt;/strong&gt;进行选择。&lt;/p&gt;&lt;/div&gt;
+    
+    </summary>
+    
+      <category term="EOMS" scheme="https://maxieyuan.github.io/categories/EOMS/"/>
+    
+    
+      <category term="EOMS" scheme="https://maxieyuan.github.io/tags/EOMS/"/>
+    
+      <category term="处理问题" scheme="https://maxieyuan.github.io/tags/%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>考核费用管理使用说明</title>
@@ -33,9 +59,9 @@
       <category term="光缆故障统计" scheme="https://maxieyuan.github.io/categories/%E8%80%83%E6%A0%B8%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86/%E5%85%89%E7%BC%86%E6%95%85%E9%9A%9C%E7%BB%9F%E8%AE%A1/"/>
     
     
-      <category term="考核费用管理" scheme="https://maxieyuan.github.io/tags/%E8%80%83%E6%A0%B8%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86/"/>
-    
       <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
+    
+      <category term="考核费用管理" scheme="https://maxieyuan.github.io/tags/%E8%80%83%E6%A0%B8%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86/"/>
     
       <category term="光缆故障统计" scheme="https://maxieyuan.github.io/tags/%E5%85%89%E7%BC%86%E6%95%85%E9%9A%9C%E7%BB%9F%E8%AE%A1/"/>
     
@@ -96,9 +122,9 @@
       <category term="发电工单" scheme="https://maxieyuan.github.io/categories/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95/"/>
     
     
-      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
-    
       <category term="工单管理" scheme="https://maxieyuan.github.io/tags/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
     
       <category term="发电工单" scheme="https://maxieyuan.github.io/tags/%E5%8F%91%E7%94%B5%E5%B7%A5%E5%8D%95/"/>
     
@@ -127,9 +153,9 @@
       <category term="巡检工单" scheme="https://maxieyuan.github.io/categories/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/%E5%B7%A1%E6%A3%80%E5%B7%A5%E5%8D%95/"/>
     
     
-      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
-    
       <category term="工单管理" scheme="https://maxieyuan.github.io/tags/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
     
       <category term="巡检工单" scheme="https://maxieyuan.github.io/tags/%E5%B7%A1%E6%A3%80%E5%B7%A5%E5%8D%95/"/>
     
@@ -157,9 +183,9 @@
       <category term="通用任务工单" scheme="https://maxieyuan.github.io/categories/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95/"/>
     
     
-      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
-    
       <category term="工单管理" scheme="https://maxieyuan.github.io/tags/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
     
       <category term="通用任务工单" scheme="https://maxieyuan.github.io/tags/%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E5%B7%A5%E5%8D%95/"/>
     
