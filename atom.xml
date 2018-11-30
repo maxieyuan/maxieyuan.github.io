@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://maxieyuan.github.io/"/>
-  <updated>2018-11-29T08:32:39.925Z</updated>
+  <updated>2018-11-30T07:59:08.272Z</updated>
   <id>https://maxieyuan.github.io/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>line-hidden</title>
+    <link href="https://maxieyuan.github.io/2018/11/30/line-hidden/"/>
+    <id>https://maxieyuan.github.io/2018/11/30/line-hidden/</id>
+    <published>2018-11-30T07:59:08.000Z</published>
+    <updated>2018-11-30T07:59:08.272Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>daiwei-question</title>
+    <link href="https://maxieyuan.github.io/2018/11/30/daiwei-question/"/>
+    <id>https://maxieyuan.github.io/2018/11/30/daiwei-question/</id>
+    <published>2018-11-30T01:53:03.000Z</published>
+    <updated>2018-11-30T07:59:25.212Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">    此帮助文章主要记录全区代维人员、代维公司、移动分公司人员在使用代维系统中遇到的各类问题。    目的是为了，对遇到的一些问题，能够根据此文章给出的解决办法进行自我处理，提高工作效率。</blockquote><a id="more"></a><h3 id="工单丢失"><a class="header-anchor" href="#工单丢失">¶</a>工单丢失</h3><h4 id="流转环节出现问题"><a class="header-anchor" href="#流转环节出现问题">¶</a>流转环节出现问题</h4><p>由于系统升级（需求上线可能会导致此类问题）导致某类工单新增、减少、改进了工单的流转环节。</p><p>导致用户在使用工单时，发现工单为正常流转到本人账号或者下一级处理人员账号。</p><p>此时需要使用工单管理中某一类工单的<code>工单查询</code>功能，根据<code>工单主题</code>或者<code>工单流水号</code>进行查询，查询时要注意选择时间，时间选择要小于工单派单时间，否则可能会搜索不到工单。</p><p><img src="http://pi6gbdf85.bkt.clouddn.com/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98-%E5%B7%A5%E5%8D%95%E6%9F%A5%E8%AF%A2.gif" alt=""></p><h4 id="没有下一级处理人员"><a class="header-anchor" href="#没有下一级处理人员">¶</a>没有下一级处理人员</h4><p>由于网络以及系统升级时重启服务，导致系统没有获取到下一级处理人员。</p><p>此类问题需要联系<code>代维系统维护人员</code>进行处理。</p><p>联系方式：liuyawen@boco.com.cn</p><h3 id="掌上运维使用问题"><a class="header-anchor" href="#掌上运维使用问题">¶</a>掌上运维使用问题</h3><h4 id="掌上运维登录报错-密码不对"><a class="header-anchor" href="#掌上运维登录报错-密码不对">¶</a>掌上运维登录报错/密码不对</h4><p>掌上运维维护人员为：马智慧，mazhihui@boco.com.cn</p><h4 id="掌上运维子app使用问题"><a class="header-anchor" href="#掌上运维子app使用问题">¶</a>掌上运维子APP使用问题</h4><table><thead><tr><th style="text-align:center">工单类APP</th><th style="text-align:center">巡检类APP</th><th style="text-align:center">独立APP</th></tr></thead><tbody><tr><td style="text-align:center">代维工单（新）</td><td style="text-align:center">代维巡检（新）</td><td style="text-align:center">新版本线路巡检</td></tr><tr><td style="text-align:center">发电工单</td><td style="text-align:center"></td><td style="text-align:center">传输计费</td></tr></tbody></table><p>代维工单（新）：通用任务工单、隐患/异常上报工单、资源核查工单</p><p>代维巡检（新）：基站、集客、室分等巡检计划</p><p>新版本线路巡检：传输线路动态巡检、干线隐患工单</p><p>传输计费：传输线路本地网计次工单</p><p>发电工单：发电保障工单</p><ul><li>对于 <code>独立APP</code>发现无法正常登录时，请联系维护人员：machiyuan@boco.com.cn 将具体无法正常登录的截图以及账号信息在邮件中说明</li><li>对于<code>工单类APP</code>、<code>巡检类APP</code>发现无法正常登录时，可以联系 <a href="mailto:machiyuan@boco.com.cn" target="_blank" rel="noopener">machiyuan@boco.com.cn</a> 和 <a href="mailto:liuyawen@boco.com.cn" target="_blank" rel="noopener">liuyawen@boco.com.cn</a></li></ul><h5 id="新版本线路巡检"><a class="header-anchor" href="#新版本线路巡检">¶</a>新版本线路巡检</h5><p>月初登录APP时，看不到巡检计划：每月月初由代维系统生成动态巡检计划后，需要各地市移动负责人进行审批下发，才能够看到，并且要在计划所属的班组内的人员才能够看到计划信息。</p><h5 id="none"><a class="header-anchor" href="#none">¶</a></h5><h3 id="考核费用工单使用问题"><a class="header-anchor" href="#考核费用工单使用问题">¶</a>考核费用工单使用问题</h3><h4 id="客响月度考核工单"><a class="header-anchor" href="#客响月度考核工单">¶</a>客响月度考核工单</h4><ul><li><p>在流转环节的<code>考核打分</code>环节中：</p><ol><li>区公司打分项：只有区公司权限的账号能够看到打分结果</li><li>地市公司打分项：只有地市公司权限的账号能够看到打分结果</li><li>区公司与地市公司打分的信息，互相不可见</li></ol></li><li><p>在流转环节的<code>移动代维管理员审核</code>环节中：发起考核工单的人员，可以看到<code>考核打分</code>环节中的打分信息</p></li><li><p>在流转环节的<code>代维人员确认</code>环节中：代维公司的确认人，可以看到<code>考核打分</code>环节中的打分信息</p></li><li><p>在流转环节的<code>领导审核</code>环节中：由地市移动领导对考核工单进行审核确认</p></li></ul><hr><br><div class="note info"><p>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div><br><br><center> <a class="btn" href="http://10.221.170.152:8080/partner/" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击这里返回内蒙古网络代维平台</a></center><br><br>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;
+    此帮助文章主要记录全区代维人员、代维公司、移动分公司人员在使用代维系统中遇到的各类问题。
+    目的是为了，对遇到的一些问题，能够根据此文章给出的解决办法进行自我处理，提高工作效率。
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="代维系统" scheme="https://maxieyuan.github.io/categories/%E4%BB%A3%E7%BB%B4%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="问题处理办法" scheme="https://maxieyuan.github.io/categories/%E4%BB%A3%E7%BB%B4%E7%B3%BB%E7%BB%9F/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95/"/>
+    
+    
+      <category term="工单管理" scheme="https://maxieyuan.github.io/tags/%E5%B7%A5%E5%8D%95%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
     <title>线路巡检遇到的各类问题解答</title>
     <link href="https://maxieyuan.github.io/2018/11/29/line-inspect/"/>
     <id>https://maxieyuan.github.io/2018/11/29/line-inspect/</id>
     <published>2018-11-29T06:57:46.000Z</published>
-    <updated>2018-11-29T08:32:39.925Z</updated>
+    <updated>2018-11-30T01:55:44.760Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">由于代维人员的经验、人员变动等情况造成使用线路巡检app以及线路巡检系统时，遇到的问题较多。<br>    所以在这里进行统一汇总说明，如果有额外的问题，请在留言区进行提出，谢谢！</blockquote><a id="more"></a><h3 id="新版线路巡检app使用过程中的问题"><a class="header-anchor" href="#新版线路巡检app使用过程中的问题">¶</a>新版线路巡检APP使用过程中的问题</h3><p><font color="#FF2400" size="4">注意：</font>如果发现巡检人员在巡检时作弊，将会对该巡检人员巡检过的数据进行清空操作，并且通知分公司人员。</p><h4 id="巡检不上点"><a class="header-anchor" href="#巡检不上点">¶</a>巡检不上点</h4><p>如果遇到当天巡检了几十条线路段，而一个敷设点都没巡上的情况，并且一个地市所有旗县都存在此类情况，请及时联系代维系统管理员。</p><ul><li><strong>巡检过程中发现不上点：（代维人员）</strong><ol><li>8点开始巡检，9点提交巡检打点记录，发现没有上点：由于使用巡检系统人数较多，可以在下午14点以后，查看巡检上点率</li><li>8点开始巡检，18点提交巡检打点记录，第二天发现部分线路段上的敷设点未上点：巡检系统设置的误差范围为200米，如果大于200米，则无法打点成功。请保证在200米范围内巡检，如果对此有疑问，可以按照<a href="https://maxieyuan.github.io/2018/11/29/eoms-work-order/">EOMS派发工单</a>中的说明，派发EOMS工单，由代维系统维护人员进行后台确认数据</li><li>对某些巡检过两三次以上的敷设点，进行步巡，发现还不上点：出现该类问题的原因是因为，敷设点资源匹配的经纬度与地图展示的经纬度有误差，这类问题可以在<strong>管线</strong>系统中进行修正，派发EOMS工单，月底由代维系统负责同步敷设点数据</li></ol></li><li><strong>需要代维系统维护人员处理时，需要提供的信息：</strong><ol><li>巡检时间：年月日</li><li>巡检人账号：账号id、密码</li><li>线路段名称：具体巡不上点的线路段，线路段名称要与代维系统中的线路名称一致</li></ol></li></ul><h4 id="代维系统的计划中任务数与手机app不一致"><a class="header-anchor" href="#代维系统的计划中任务数与手机app不一致">¶</a>代维系统的计划中任务数与手机APP不一致</h4><p>存在此类的情况一般为 线路段关联的班组为该区县下另一个班组或者另几个班组，需要代维人员在<code>线路巡检管理</code>的<code>线路资源维护组划分</code>中进行修正。（<a href="https://maxieyuan.github.io/2018/11/22/dynamic-Inspect/">修改班组</a>）</p><h4 id="敷设点没有地图信息"><a class="header-anchor" href="#敷设点没有地图信息">¶</a>敷设点没有地图信息</h4><p>在管线系统里未录入该敷设点的地图信息，请联系当地管线负责人进行录入操作</p><hr><br><div class="note info"><p>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div><br><br><center> <a class="btn" href="http://10.221.170.152:8080/partner/" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>点击这里返回内蒙古网络代维平台</a></center><br><br>]]></content>
     
@@ -36,6 +86,10 @@
       <category term="巡检管理" scheme="https://maxieyuan.github.io/categories/%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86/"/>
     
       <category term="线路巡检" scheme="https://maxieyuan.github.io/categories/%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80/"/>
+    
+      <category term="问题处理办法" scheme="https://maxieyuan.github.io/categories/%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95/"/>
+    
+      <category term="代维系统" scheme="https://maxieyuan.github.io/categories/%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86/%E7%BA%BF%E8%B7%AF%E5%B7%A1%E6%A3%80/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95/%E4%BB%A3%E7%BB%B4%E7%B3%BB%E7%BB%9F/"/>
     
     
       <category term="代维" scheme="https://maxieyuan.github.io/tags/%E4%BB%A3%E7%BB%B4/"/>
