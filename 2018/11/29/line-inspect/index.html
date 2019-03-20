@@ -107,7 +107,7 @@
 <meta property="og:site_name" content="内蒙古网络代维帮助页面">
 <meta property="og:description" content="由于代维人员的经验、人员变动等情况造成使用线路巡检app以及线路巡检系统时，遇到的问题较多。     所以在这里进行统一汇总说明，如果有额外的问题，请在留言区进行提出，谢谢！">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-14T02:42:53.021Z">
+<meta property="og:updated_time" content="2019-03-20T01:52:13.985Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="线路巡检遇到的各类问题解答">
 <meta name="twitter:description" content="由于代维人员的经验、人员变动等情况造成使用线路巡检app以及线路巡检系统时，遇到的问题较多。     所以在这里进行统一汇总说明，如果有额外的问题，请在留言区进行提出，谢谢！">
@@ -474,7 +474,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  710
+                  1.1k
                 </span>
               
 
@@ -507,25 +507,35 @@
 <h4 id="巡检不上点"><a class="header-anchor" href="#巡检不上点">¶</a>巡检不上点</h4>
 <p>如果遇到当天巡检了几十条线路段，而一个敷设点都没巡上的情况，并且一个地市所有旗县都存在此类情况，请及时联系代维系统管理员。</p>
 <ul>
-<li><strong>巡检过程中发现不上点：（代维人员）</strong>
+<li>
+<p><strong>巡检过程中发现不上点：（代维人员）</strong></p>
 <ol>
 <li>8点开始巡检，9点提交巡检打点记录，发现没有上点：由于使用巡检系统人数较多，可以在下午14点以后，查看巡检上点率</li>
 <li>8点开始巡检，18点提交巡检打点记录，第二天发现部分线路段上的敷设点未上点：巡检系统设置的误差范围为200米，如果大于200米，则无法打点成功。请保证在200米范围内巡检，如果对此有疑问，可以按照<a href="https://maxieyuan.github.io/2018/11/29/eoms-work-order/" target="_blank" rel="noopener">EOMS派发工单</a>中的说明，派发EOMS工单，由代维系统维护人员进行后台确认数据</li>
-<li>对某些巡检过两三次以上的敷设点，进行步巡，发现还不上点：出现该类问题的原因是因为，敷设点资源匹配的经纬度与地图展示的经纬度有误差，这类问题可以在<strong>管线</strong>系统中进行修正，派发EOMS工单，月底由代维系统负责同步敷设点数据</li>
+<li>对某些巡检过两三次以上的敷设点，进行步巡，发现还不上点：出现该类问题的原因可能是因为，敷设点资源匹配的经纬度与地图展示的经纬度有误差，这类问题可以在<strong>管线</strong>系统中进行修正，派发EOMS工单，月底由代维系统负责同步敷设点数据</li>
 </ol>
 </li>
-<li><strong>需要代维系统维护人员处理时，需要提供的信息：</strong>
+<li>
+<p><strong>需要代维系统维护人员处理时，需要提供的信息：</strong></p>
 <ol>
 <li>巡检时间：年月日</li>
 <li>巡检人账号：账号id、密码</li>
 <li>线路段名称：具体巡不上点的线路段，线路段名称要与代维系统中的线路名称一致</li>
+<li>提供提出问题的代维人员联系方式</li>
 </ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">样例：</span><br><span class="line">    2019年3月19日巡检，巡检人掌上运维账号：dwmachiyuan，密码：Dwpass2015。</span><br><span class="line">    巡检线路段名称：</span><br><span class="line">        呼和浩特市移动一枢纽-和林盛乐云计算中心干线光缆 干线1/011 </span><br><span class="line">        清水河呼和浩特市王桂窑-东胜薛家湾干线光缆 干线1/003</span><br><span class="line">    具体问题：</span><br><span class="line">        1、按照地图轨迹巡检，巡不上点。</span><br><span class="line">        2、地图轨迹/敷设点展示不全</span><br><span class="line">        ...</span><br><span class="line">    代维人员联系方式：150XXXXXXXX</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="代维系统的计划中任务数与手机app不一致"><a class="header-anchor" href="#代维系统的计划中任务数与手机app不一致">¶</a>代维系统的计划中任务数与手机APP不一致</h4>
-<p>存在此类的情况一般为 线路段关联的班组为该区县下另一个班组或者另几个班组，需要代维人员在<code>线路巡检管理</code>的<code>线路资源维护组划分</code>中进行修正。（<a href="https://maxieyuan.github.io/2018/11/22/dynamic-Inspect/" target="_blank" rel="noopener">修改班组</a>）</p>
+<h4 id="代维系统的计划中-任务数与手机app不一致-看不到计划信息"><a class="header-anchor" href="#代维系统的计划中-任务数与手机app不一致-看不到计划信息">¶</a>代维系统的计划中 任务数与手机APP不一致/看不到计划信息</h4>
+<p><font color="#32CD99" size="4">可能存在以下几种情况</font></p>
+<ol>
+<li>存在此类的情况一般为 线路段关联的班组为该区县下另一个班组或者另几个班组，需要代维人员在<code>线路巡检管理</code>的<code>线路资源维护组划分</code>中进行修正。（<a href="https://maxieyuan.github.io/2018/11/22/dynamic-Inspect/" target="_blank" rel="noopener">修改班组</a>）</li>
+<li>部分线路段没有敷设点数据：这种情况是由于在管线系统中新增了线路段，但敷设点数据未同步至代维系统，需要派发EOMS工单，说明需要同步哪个地市的敷设点数据。派发工单一般要在月底也就是 26-28号左右派发，否则可能存在审批工单流程推迟，工单在月初流转到代维维护人员的账号下，造成延时同步。</li>
+<li>看不到计划信息的情况，需要查询该代维人员账号是否属于这个计划下的班组，只有当<code>计划中的班组=代维人员所属班组</code>时，才能看到巡检计划，进行巡检操作。</li>
+</ol>
 <h4 id="敷设点没有地图信息"><a class="header-anchor" href="#敷设点没有地图信息">¶</a>敷设点没有地图信息</h4>
 <p>在管线系统里未录入该敷设点的地图信息，请联系当地管线负责人进行录入操作</p>
+<p><font color="#FF2400" size="5">此篇文章可能未覆盖所有实际使用过程中出现的问题，如果需要请在评论留言说明您的问题，并邮件通知代维维护人员</font></p>
 <hr>
 <br>
 <div class="note info"><p>如果您对这篇文章有任何问题请及时联系我，我的Email：machiyuan@boco.com.cn</p></div>
@@ -564,7 +574,7 @@
   <p><span>本文标题:</span><a href="/2018/11/29/line-inspect/">线路巡检遇到的各类问题解答</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Help Platform 的个人博客">Help Platform</a></p>
   <p><span>发布时间:</span>2018年11月29日 - 14:11</p>
-  <p><span>最后更新:</span>2019年01月14日 - 10:01</p>
+  <p><span>最后更新:</span>2019年03月20日 - 09:03</p>
   <p><span>原始链接:</span><a href="/2018/11/29/line-inspect/" title="线路巡检遇到的各类问题解答">https://partnerhelp.online/2018/11/29/line-inspect/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://partnerhelp.online/2018/11/29/line-inspect/" aria-label="复制成功！"></i></span>
   </p>
@@ -815,7 +825,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新版线路巡检app使用过程中的问题"><span class="nav-number">1.</span> <span class="nav-text">¶新版线路巡检APP使用过程中的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#巡检不上点"><span class="nav-number">1.1.</span> <span class="nav-text">¶巡检不上点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代维系统的计划中任务数与手机app不一致"><span class="nav-number">1.2.</span> <span class="nav-text">¶代维系统的计划中任务数与手机APP不一致</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#敷设点没有地图信息"><span class="nav-number">1.3.</span> <span class="nav-text">¶敷设点没有地图信息</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#新版线路巡检app使用过程中的问题"><span class="nav-number">1.</span> <span class="nav-text">¶新版线路巡检APP使用过程中的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#巡检不上点"><span class="nav-number">1.1.</span> <span class="nav-text">¶巡检不上点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代维系统的计划中-任务数与手机app不一致-看不到计划信息"><span class="nav-number">1.2.</span> <span class="nav-text">¶代维系统的计划中 任务数与手机APP不一致/看不到计划信息</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#敷设点没有地图信息"><span class="nav-number">1.3.</span> <span class="nav-text">¶敷设点没有地图信息</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -879,7 +889,7 @@
 <div>
 </div>
 <div class="theme-info">
-  <span class="post-count">博客全站共15.5k字</span>
+  <span class="post-count">博客全站共15.9k字</span>
 </div>
         
 <div class="busuanzi-count">
